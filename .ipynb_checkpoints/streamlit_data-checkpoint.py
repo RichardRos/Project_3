@@ -3,18 +3,18 @@ import pandas as pd
 import streamlit as st
 
 base_url = 'https://financialmodelingprep.com/api'
-API_KEY = 'DhSKlDzkmluzGeZ4mK9mvI0lQDUDmRpa'
+API_KEY = 'FcgbccsmrU7YT91G8RMicus6iN9SsaJU'
 
-st.header('Stock Screener')
+st.header('Stock Screening Tool')
 symbol = st.sidebar.text_input('Ticker:', value='ACLS')
 finance_data = st.sidebar.selectbox('Finance Data Type',options=('income-statement', 'balance-sheet-statement',
                                                                    'cash-flow-statement', 'balance-sheet-statement-growth', 
-                                                                   'income-statement-growth', 'discount-cash-flow',
-                                                                   'historical-discouned-cash-flow', 'eneterprise-values',
-                                                                   'ratios', 'ratings', 'Historical Price smaller intervals'))
+                                                                   'income-statement-growth', 'discounted-cash-flow',
+                                                                   'historical-discounted-cash-flow', 'enterprise-value',
+                                                                   'ratios', 'rating', 'Historical Price smaller intervals'))
 
 if finance_data == 'Historical Price smaller intervals':
-    interval = st.sidebar.selectbox('Interval', options=('1m', '5m', '15m', '30m', '1hour', '4hour'))
+    interval = st.sidebar.selectbox('Interval', options=('1hour', '4hour', '1day', '1week'))
     finance_data = 'historical-chart/'+interval
 
 transpose = st.sidebar.selectbox('Transpose', options=('Yes', 'No'))
