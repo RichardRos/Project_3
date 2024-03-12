@@ -20,7 +20,8 @@ The primary code can be found in the following files:
 
 - Data_Acquisition.ipynb (Uses the FinanceToolkit API to collect data on potential and historical acquisition targets, and creates a CSV of the relevant information)
 - Unsupervised_Model.ipynb (Reads the CSV created by the Data Acquisition file, prepares the data for analysis, runs KMeans and DBSCAN analyses on both the original data and PCA data)
-- More files...
+- FinanceToolKit.ipynb(Using the API it pulls balance/income statements for the list of 49 potential targets)
+- TargetModel.py(set target criteria from a list of three tickers) determined which one met the target criteria. 
 
 ### Data Files
 
