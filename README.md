@@ -30,18 +30,3 @@ The CSV files created by Data_Acquisition.ipynb can be found in the Data_Files f
 ### Saved Plots
 
 The saved plots created by Unsupervised_Model.ipynb can be found in the Saved_Plots folder.
-
-
-
-
-(Task for the end of class Thursday)
-collect data for all 50 companies on our google sheet. 
-
-
-(Task for Monday,Tuesday,Wednesday)
-create the DCF, Cluster, and Classification model.
-
-(Task for Thursday, Monday(4-11-24))
-Create the Presentation 
-Pick slides we will present
-
