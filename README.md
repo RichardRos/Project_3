@@ -13,6 +13,7 @@ In this project, we've assumed the role of a large tech company looking for an a
 5) Use an unsupervised learning model to cluster the potential acqusition targets with the good acquisition targets
 6) Identify a cluster where the number of good acquisition targets is relatively high
 7) Run a discounted cash flow (DCF) model on the potential acquisition targets in the same cluster looking for a "cheap" company to acquire
+8) The DCF shows sensitivity to interest rate and tax environments so proper analysis could be used to evaluate possible mergers
 
 ### Primary Code
 
